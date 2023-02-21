@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 // Import FILES
 import '../screens/header.dart';
+import '../screens/my_slider.dart';
 //
 
 class HomePage extends StatefulWidget {
@@ -22,6 +23,7 @@ class _HomePageState extends State<HomePage> {
           //Header
           Header(),
           // Slider
+          MySlider(),
         ],
       ),
     );
